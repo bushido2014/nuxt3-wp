@@ -1,11 +1,15 @@
 # Nuxt 3 WordPress + Custom Post Type Rest API 
 
 ## Technologies Used
- -[Nuxt 3 ](https://nuxt.com/)
+ - [Nuxt 3 ](https://nuxt.com/)
 
- -[Nuxt UI ](https://ui.nuxt.com/)
- 
- -[Tailwind CSS](https://tailwindcss.com/) 
+ - [Nuxt UI ](https://ui.nuxt.com/)
+
+ - [Tailwind CSS](https://tailwindcss.com/) 
+
+ - [Nuxt Icon](https://nuxt.com/modules/icon) 
+
+ - [Vue Awesome Paginate](https://github.com/peshanghiwa/vue-awesome-paginate) 
 
 ## Setup
 
