@@ -2,7 +2,9 @@
 
 ## Technologies Used
  -[Nuxt 3 ](https://nuxt.com/)
+
  -[Nuxt UI ](https://ui.nuxt.com/)
+ 
  -[Tailwind CSS](https://tailwindcss.com/) 
 
 ## Setup
