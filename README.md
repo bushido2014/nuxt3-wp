@@ -1,4 +1,4 @@
-# Nuxt 3 WordPress Rest API + Customm Post Type
+# Nuxt 3 WordPress + Custom Post Type Rest API 
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
