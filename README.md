@@ -1,6 +1,9 @@
 # Nuxt 3 WordPress + Custom Post Type Rest API 
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Technologies Used
+ [Nuxt 3 ](https://nuxt.com/)
+ [Nuxt UI ](https://ui.nuxt.com/)
+ [Tailwind CSS](https://tailwindcss.com/) 
 
 ## Setup
 
