@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-opensans antialiased p-0 m-0 leading-4;
+}
+h1,
+h2,
+h3,
+h4 {
+  @apply font-opensans font-bold text-slate-700;
+}
+p {
+  @apply text-base mb-2;
+}
+
+h1 {
+  @apply text-5xl mb-3;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-2xl;
+}
+h4 {
+  @apply text-xl;
+}
+section {
+  @apply py-14;
+}
+.button {
+  @apply inline-flex justify-center 
+  rounded-lg font-semibold  
+  text-sm py-3 px-8 
+  bg-slate-700 
+  text-white 
+  hover:bg-slate-900 duration-300;
+}
+.button.lg {
+  @apply py-4 px-12 text-base;
+}
+ul {
+  @apply py-4 list-disc;
+}
+ul li {
+  @apply py-2;
+}
+.site-header {
+  @apply bg-slate-700 text-white py-5;
+}
+.site-header .container {
+  @apply flex justify-between;
+}
+.menu {
+  @apply flex gap-5 items-center justify-end m-0 p-0 list-none;
+}
+.menu li {
+  @apply p-0 m-0;
+}
+
+.menu .router-link-exact-active {
+  @apply text-gray-200;
+}
+.menu a {
+  @apply relative overflow-hidden p-2 transition-all duration-500 hover:text-gray-300;
+}
+.menu a span {
+  @apply relative overflow-hidden 
+  after:absolute after:content-[''] 
+  after:duration-500
+  after:w-0 after:h-[2px] 
+  after:left-auto after:right-0 after:-bottom-2 
+  after:bg-white after:hover:bg-gray-50 after:transition-all
+  after:hover:w-full after:hover:right-auto after:hover:left-0;
+}
+.section_title {
+  @apply py-10 text-center;
+}
+.wp-block-code {
+  @apply border-l-8 border-sky-600 bg-gray-900 text-white p-8 my-6;
+}
+.blog__content ul {
+  @apply my-2 list-disc;
+}
+.blog__content ul li {
+  @apply py-2 font-semibold text-slate-700;
+}
+.blog__content h3 {
+  @apply mb-4;
+}
+.pagination-container {
+  @apply list-none flex gap-2 p-0 m-0;
+}
+
+.pagination-container button {
+  @apply border border-slate-300 shadow-sm px-3 py-2 rounded-md transition-all duration-300 hover:bg-sky-500 hover:text-white;
+}
+.pagination-container .active {
+  @apply bg-sky-500 text-white;
+}
