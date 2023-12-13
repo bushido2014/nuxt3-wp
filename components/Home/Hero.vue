@@ -1,7 +1,7 @@
 <template>
   <section
     class="hero"
-    style="background-image: url('https://i.postimg.cc/7LTmfKWv/hero.jpg')"
+    
   >
     <div class="hero-content">
       <h1 class="hero-title">Viorel Soltan</h1>
@@ -11,30 +11,66 @@
 </template>
 <style scoped>
 .hero {
-  @apply w-full relative bg-cover bg-no-repeat bg-center min-h-screen;
+  @apply bg-gradient-to-b from-slate-700 to-sky-950 min-h-screen z-10 relative;
 }
 
-.hero {
-  @apply before:content-['']
-before:absolute
-before:top-0
-before:left-0
-before:right-0
-before:bottom-0
-before:opacity-60 
-before:bg-slate-800;
-}
+
 .hero-content {
   @apply flex flex-col
  z-10 text-white
  gap-12 text-center
  relative justify-center
-items-center py-16 px-8 min-h-screen;
+items-center p-8 min-h-screen;
+animation: fadeIn 5s;
 }
 .hero-title {
   @apply text-5xl md:text-7xl mb-4 text-white;
 }
 .hero-text {
   @apply text-4xl;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
