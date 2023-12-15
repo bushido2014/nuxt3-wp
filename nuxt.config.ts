@@ -26,4 +26,7 @@ export default defineNuxtConfig({
       wpBlog: process.env.WP_BLOG,
     },
   },
+  routeRules: {
+    '/categories': { redirect: '/blog' },
+  },
 });
