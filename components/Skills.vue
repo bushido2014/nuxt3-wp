@@ -24,7 +24,7 @@ const icons = [
   'skill-icons:nuxtjs-dark',
   'skill-icons:php-dark',
   'skill-icons:wordpress',
-  'skill-icons:mysql-dark',
+  'skill-icons:nodejs-dark',
   'skill-icons:github-dark',
 ];
 </script>
