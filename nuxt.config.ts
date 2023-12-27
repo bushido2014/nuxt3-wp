@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ['@nuxt/ui', 'nuxt-icon'],
+  modules: ['@nuxt/ui', 'nuxt-icon','nuxt-simple-sitemap','nuxt-gtag'],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
@@ -33,5 +33,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://nuxt3-blogwp.vercel.app',
   },
-  
+  gtag: {
+    id: 'G-M7RC2879T4'
+  },
 });
