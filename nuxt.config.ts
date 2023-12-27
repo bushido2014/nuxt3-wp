@@ -29,4 +29,9 @@ export default defineNuxtConfig({
   routeRules: {
     '/categories': { redirect: '/blog' },
   },
+
+  site: {
+    url: 'https://nuxt3-blogwp.vercel.app',
+  },
+  
 });
