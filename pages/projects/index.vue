@@ -24,6 +24,16 @@ onMounted(() => {
     loading.value = false;
   }, 2300);
 });
+useHead({
+  title: 'All Projects',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Nuxt Apps, Wordpress Websites, Wordpress Landing and more',
+    },
+  ],
+});
 </script>
 
 <style scoped>
