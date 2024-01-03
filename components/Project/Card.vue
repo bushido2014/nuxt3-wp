@@ -32,7 +32,7 @@ defineProps(['project']);
 </script>
 <style scoped>
 .project-card {
-  @apply transition-all duration-300 hover:shadow-xl;
+  @apply transition-all duration-500 hover:shadow-xl;
 }
 .project-body {
   @apply flex flex-col justify-between  py-4;
