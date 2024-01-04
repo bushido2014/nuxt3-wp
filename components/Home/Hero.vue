@@ -29,7 +29,7 @@
  z-10 text-white
  gap-12 text-center
  relative justify-center
-items-center p-8 min-h-screen;
+items-center p-6 min-h-screen;
 animation: fadeIn 5s;
 }
 .hero-title {
