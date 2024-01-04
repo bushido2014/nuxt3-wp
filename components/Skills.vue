@@ -1,10 +1,10 @@
 <template>
   <section>
     <div class="container">
-    <div class="section_title">
+    <div class="section_title" id="skills">
       <h2>Skills</h2>
     </div>
-      <div class="skills" id="skills">
+      <div class="skills">
         <template v-for="(icon, index) in icons" :key="index">
           <Icon :name="icon" class="icon-dev" />
         </template>
