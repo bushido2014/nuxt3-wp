@@ -7,6 +7,15 @@
       <h1 class="hero-title">Viorel Soltan</h1>
       <p class="hero-text">Full-Stack Developer</p>
     </div>
+    <div class="down-wrapp pb-6 text-center">
+        <NuxtLink to="#skills">
+          <Icon
+            name="ph:caret-double-down-light"
+            class="down-con animate-bounce"
+            size="52"
+          />
+        </NuxtLink>
+      </div>
   </section>
 </template>
 <style scoped>
@@ -29,6 +38,10 @@ animation: fadeIn 5s;
 .hero-text {
   @apply text-4xl;
 }
+.down-con {
+  @apply text-white cursor-pointer;
+}
+  
 @keyframes fadeIn {
   0% {
     opacity: 0;
