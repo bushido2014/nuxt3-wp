@@ -27,9 +27,9 @@
 .hero-content {
   @apply flex flex-col
  z-10 text-white
- gap-12 text-center
+ gap-9 text-center
  relative justify-center
-items-center p-6 min-h-screen;
+items-center p-5 min-h-screen;
 animation: fadeIn 5s;
 }
 .hero-title {
