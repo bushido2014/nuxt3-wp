@@ -117,3 +117,7 @@ ul li {
 .post a {
   @apply my-2 underline underline-offset-8;
 }
+.post-content__title {
+  @apply no-underline;
+}
+  
