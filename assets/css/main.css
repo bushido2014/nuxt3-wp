@@ -112,3 +112,6 @@ ul li {
 .post .wp-block-image  {
   @apply py-2;
 }
+.post a {
+  @apply my-2 underline underline-offset-8;
+}
