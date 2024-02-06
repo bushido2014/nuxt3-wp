@@ -114,7 +114,7 @@ ul li {
 .post .wp-block-image  {
   @apply py-2;
 }
-.post a {
+.post a, .post h3 a {
   @apply my-2 underline underline-offset-8 text-sky-600;
 }
 .post-content__title a {
