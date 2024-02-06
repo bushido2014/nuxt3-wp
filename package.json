@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
-    "nuxt": "^3.8.2",
+    "nuxt": "^3.10.1",
     "nuxt-gtag": "^1.1.2",
     "nuxt-icon": "^0.6.7",
     "nuxt-simple-sitemap": "^4.2.0",
