@@ -41,8 +41,10 @@ section {
   rounded-lg font-semibold  
   text-sm py-3 px-8 
   bg-slate-700 
+  no-underline
   text-white 
-  hover:bg-slate-900 duration-300;
+  duration-300
+  hover:bg-slate-900;
 }
 .button.lg {
   @apply py-4 px-12 text-base;
