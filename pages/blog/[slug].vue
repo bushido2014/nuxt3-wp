@@ -64,10 +64,5 @@ const post = posts.value[0];
 article.post-content p {
   color: red;
 }
-.post .wp-block-heading {
-   @apply py-3;
-}
-.post .wp-block-image  {
-  @apply py-2;
-}
+
 </style>
