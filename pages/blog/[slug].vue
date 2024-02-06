@@ -73,7 +73,7 @@ article.post-content p {
 .post a, .post h3 a {
   @apply my-2 underline underline-offset-8 text-sky-600;
 }
-.post-content__title a {
-  @apply no-underline;
+.post-content__title h2 {
+  padding: 10px 0;
 }
 </style>
