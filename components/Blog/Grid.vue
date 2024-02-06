@@ -46,7 +46,7 @@ defineProps<{
   @apply overflow-hidden;
 }
 .post-image__wrapper {
-  @apply h-[240px] w-full relative overflow-hidden rounded-lg;
+  @apply h-[300px] w-full relative overflow-hidden rounded-lg;
 }
 .post-image {
   @apply duration-300 rounded-lg
