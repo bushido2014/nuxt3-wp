@@ -41,8 +41,8 @@ section {
   rounded-lg font-semibold  
   text-sm py-3 px-8 
   bg-slate-700 
-  no-underline
-  text-white 
+  no-underline !important
+  text-white !important
   duration-300
   hover:bg-slate-900;
 }
@@ -115,7 +115,7 @@ ul li {
   @apply py-2;
 }
 .post a {
-  @apply my-2 underline underline-offset-8;
+  @apply my-2 underline underline-offset-8 text-sky-600;
 }
 .post-content__title a {
   @apply no-underline;
