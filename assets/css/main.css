@@ -106,3 +106,9 @@ ul li {
 .pagination-container .active {
   @apply bg-sky-500 text-white;
 }
+.post .wp-block-heading {
+   @apply py-3;
+}
+.post .wp-block-image  {
+  @apply py-2;
+}
