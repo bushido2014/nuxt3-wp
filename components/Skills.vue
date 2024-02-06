@@ -6,7 +6,9 @@
     </div>
       <div class="skills">
         <template v-for="(icon, index) in icons" :key="index">
+          
           <Icon :name="icon" class="icon-dev" />
+          
         </template>
       </div>
     </div>
