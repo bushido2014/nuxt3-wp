@@ -41,8 +41,8 @@ section {
   rounded-lg font-semibold  
   text-sm py-3 px-8 
   bg-slate-700 
-  no-underline !important
-  text-white !important
+  no-underline
+  text-white 
   duration-300
   hover:bg-slate-900;
 }
