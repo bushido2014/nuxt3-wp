@@ -64,5 +64,16 @@ const post = posts.value[0];
 article.post-content p {
   color: red;
 }
-
+.post .wp-block-heading {
+   @apply py-3;
+}
+.post .wp-block-image  {
+  @apply my-3;
+}
+.post a, .post h3 a {
+  @apply my-2 underline underline-offset-8 text-sky-600;
+}
+.post-content__title a {
+  @apply no-underline;
+}
 </style>
