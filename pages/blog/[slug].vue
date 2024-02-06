@@ -67,4 +67,7 @@ article.post-content p {
 .post .wp-block-heading {
    @apply py-3;
 }
+.post .wp-block-image  {
+  @apply py-2;
+}
 </style>
