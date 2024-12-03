@@ -15,6 +15,7 @@
         <CategoriesList />
       </aside>
     </div>
+    
     <div class="py-6 text-center">
       <vue-awesome-paginate
         :total-items="totalPosts"
@@ -27,6 +28,7 @@
         next-button-class="next"
       />
     </div>
+    
     <div ref="top"></div>
   </div>
 </template>
