@@ -94,10 +94,11 @@ useHead({
   <div class="container py-8 relative">
     <div class="border-b border-slate-400 space-y-6 pb-8">
       <p>
-        I am a Fullstack Developer with over 5 years of experience. My
-        experience spans various fields, and I am always ready to take on new
-        challenges in the world of modern technology. My passion for details and
-        commitment to writing high-quality code are backed by years of practice.
+        I am a Front-End Developer with over 5 years of experience in building modern, 
+        high-performance web applications. My expertise spans various fields, 
+        and I am always eager to take on new challenges in the ever-evolving world of technology.
+        With a keen eye for detail and a strong commitment to writing clean, high-quality code, 
+        I strive to deliver outstanding digital experiences
       </p>
     </div>
 
