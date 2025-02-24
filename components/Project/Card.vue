@@ -2,7 +2,7 @@
   <UCard class="project-card">
     <div class="project-head">
       <img
-        :src="project.featured_media_src_url"
+        :src="project.featured_image_src"
         class="rounded-lg"
         loading="lazy"
       />

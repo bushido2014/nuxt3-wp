@@ -2,7 +2,7 @@
   <div
     class="project-list__img"
     v-bind:style="{
-      'background-image': 'url(' + project.featured_media_src_url + ')',
+      'background-image': 'url(' + project.featured_image_src + ')',
     }"
   ></div>
 </template>
