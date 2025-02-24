@@ -5,7 +5,7 @@
   >
     <div class="hero-content">
       <h1 class="hero-title">Viorel Soltan</h1>
-      <p class="hero-text">Full-Stack Developer</p>
+      <p class="hero-text">Front End Developer</p>
     </div>
     <div class="down-wrapp pb-6 text-center">
         <NuxtLink to="#skills">
