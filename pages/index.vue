@@ -1,4 +1,5 @@
 <template>
+  
   <HomeHero />
   <Skills />
   <section class="home-projects">
@@ -24,6 +25,7 @@
       </div>
     </div>
   </section>
+  
 </template>
 <script lang="ts" setup>
 const { data: projects } = await useWpApi().getProjects();
@@ -49,3 +51,4 @@ const { data: projects } = await useWpApi().getProjects();
   opacity: 1;
 }
 </style>
+
