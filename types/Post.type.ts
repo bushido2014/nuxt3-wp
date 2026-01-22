@@ -1,4 +1,5 @@
 export interface Post {
+  
   id: number;
   date: string;
   title: {
@@ -11,4 +12,6 @@ export interface Post {
   link: string;
   author: string;
   _embedded: any;
+  
 }
+
