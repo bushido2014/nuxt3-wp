@@ -23,9 +23,9 @@
           {{ project.title.rendered }}
         </h1>
       </div>
-      <div class="single-project__img">
-        <img :src="project.featured_media_src_url" />
-      </div>
+      <div class="single-project__img" v-if="project.featured_image_src">
+  <img :src="project.featured_image_src" :alt="project.title.rendered" />
+</div>
 
       <div
         v-if="project.content"
@@ -58,4 +58,5 @@ console.log('Featured media URL:', project.featured_media_src_url);
   @apply font-semibold text-sky-700;
 }
 </style>
+
 
