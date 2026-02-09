@@ -40,9 +40,9 @@ const params = useRoute().params;
 
 const { data: projects } = await useWpApi().getProject(params.slug as string);
 const project = projects.value[0];
-console.log('Project data:', project);
-console.log('Featured media:', project.featured_media);
-console.log('Featured media URL:', project.featured_media_src_url);  
+//console.log('Project data:', project);
+//console.log('Featured media:', project.featured_media);
+//console.log('Featured media URL:', project.featured_media_src_url);  
 </script>
 <style scoped>
 .single-project__wrapp {
@@ -58,5 +58,6 @@ console.log('Featured media URL:', project.featured_media_src_url);
   @apply font-semibold text-sky-700;
 }
 </style>
+
 
 
