@@ -11,10 +11,6 @@ export default defineNuxtConfig({
     },
   },
 
-  // Config Vercel
-   nitro: {
-    preset: 'vercel'
-  },
 
   app: {
     baseURL: '/',
